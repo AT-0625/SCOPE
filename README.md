@@ -26,7 +26,7 @@
 
 This repository includes one demo stellar catalog:
 
-- `catalog.csv`: Contains data such as Right Ascension, Declination, Apparent Magnitude, Spectral Type, etc.
+- `SCOPE_StellarCatalog.csv`: Contains data such as Right Ascension, Declination, Apparent Magnitude, Spectral Type, etc.
 
 This file serves as input data for the simulations. Its specific purpose corresponds to the information conveyed by its filename, and the code structure reflects how it is utilized.
 
