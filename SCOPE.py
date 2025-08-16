@@ -1835,7 +1835,7 @@ while True:
             # If the user wants a legend
             if lblcheck==1:
               graph=plt.hist(np.array(readtable[xax]), bins='auto', edgecolor='black', color='slategray', label=label)
-              plt.legend(True)
+              plt.legend()
             # If the user does not want a legend
             else:
               graph=plt.hist(np.array(readtable[xax]), bins='auto', edgecolor='black', color='slategray')
@@ -1844,7 +1844,7 @@ while True:
           else:
             if lblcheck==1:
               graph=plt.hist(np.array(readtable[xax]), bins=bins, edgecolor='black', color='slategray', label=label)
-              plt.legend(True)
+              plt.legend()
             else:
               graph=plt.hist(np.array(readtable[xax]), bins=bins, edgecolor='black', color='slategray')
 
@@ -1879,7 +1879,7 @@ while True:
 
           if lblcheck==1:
             graph=plt.bar(category,count,color='slategray',edgecolor='black',width=0.8,label=label)
-            plt.legend(True)
+            plt.legend()
           else:
             graph=plt.bar(category,count,color='slategray',edgecolor='black',width=0.8)
 
@@ -1990,7 +1990,7 @@ while True:
           plt.ylabel(ylabel)
           plt.axhline(y=minalt,linestyle='--',color='gray',linewidth=0.8)
           plt.grid(True)
-          plt.legend(True)
+          plt.legend()
 
           showsave()
 
