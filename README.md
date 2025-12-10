@@ -53,7 +53,7 @@ No special installation required. Just clone the repo and run the script in your
 
 ## Status
 
-The current version reflects a completed code structure with support for both `.csv` and `.fits` table formats, awaiting formal validation.
+The current version is fully debugged and testing is complete. All functionality for `.csv` and `.fits` formats is now stable.
 
 ---
 
